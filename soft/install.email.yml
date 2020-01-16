@@ -1,0 +1,7 @@
+---
+- name: Install email server
+  hosts: "{{ vhosts | default('email') }}"
+
+  roles:
+     - ncl.email
+     - ncl.mutt

@@ -1,0 +1,4 @@
+deb http://scratch/ubuntu/ xenial main restricted universe multiverse
+deb http://scratch/ubuntu/ xenial-updates main restricted universe multiverse
+deb http://scratch/ubuntu/ xenial-security main restricted universe multiverse
+

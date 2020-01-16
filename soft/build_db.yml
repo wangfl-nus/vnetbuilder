@@ -1,0 +1,8 @@
+---
+# install database for n2
+- name: Install roles on dbn2
+  hosts: dbn2
+
+  roles:
+    - ncl.mysql
+

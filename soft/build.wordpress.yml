@@ -1,0 +1,10 @@
+---
+- name: Install roles on webn4
+  hosts: webn4
+
+  roles:
+    - ncl.apache
+    - ncl.wp-mysql
+    - ncl.php7
+    - ncl.wordpress
+

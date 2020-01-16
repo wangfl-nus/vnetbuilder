@@ -1,0 +1,3 @@
+#!/usr/bin/env bash
+echo "ssh n$1.${0#*/}.ncl.sg"
+ssh n$1.${0#*/}.ncl.sg

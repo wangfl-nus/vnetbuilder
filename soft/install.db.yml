@@ -1,0 +1,7 @@
+---
+# install database
+- name: Install db server
+  hosts: "{{ vhosts | default('dbn2') }}"
+
+  roles:
+    - ncl.mysql

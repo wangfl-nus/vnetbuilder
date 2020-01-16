@@ -1,0 +1,7 @@
+---
+# install database for n2
+- name: Install roles on Dnsn4
+  hosts: dnsn4
+
+  roles:
+    - ncl.dns

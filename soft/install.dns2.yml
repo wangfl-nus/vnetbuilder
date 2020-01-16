@@ -1,0 +1,6 @@
+---
+- name: Install dns server
+  hosts: "{{ vhosts | default('dns') }}"
+
+  roles:
+    - AlphaHydrae.dnsmasq

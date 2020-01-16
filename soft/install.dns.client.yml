@@ -1,0 +1,22 @@
+---
+# update name server
+- hosts: all
+  tasks:
+  - name: insert nameserver
+    become: true
+    lineinfile:
+      dest: /etc/resolv.conf
+      state: present
+      backrefs: yes
+      line: 'nameserver {{ ip }}'
+      regexp: 'nameserver 10\.0\.\d{1,3}\.\d{1,3}'
+ 
+  - name: insert search
+    become: true
+    lineinfile:
+      dest: /etc/resolv.conf
+      state: present
+      backrefs: yes
+      line: 'search {{ domain }}'
+      regexp: 'search \w'
+

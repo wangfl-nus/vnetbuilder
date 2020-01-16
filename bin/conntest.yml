@@ -1,0 +1,12 @@
+---
+- name: Transfer and execute a script.
+  hosts: gw
+  tasks:
+    - name: Copy and Execute the script 
+      become: true 
+      copy: 
+         src: /share/ven/bin/nodetest.py
+         dest: /vagrant/nodetest.py
+    - name: execute
+      script: python /vagrant/nodetest.py
+      become: true
