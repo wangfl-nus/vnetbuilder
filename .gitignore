@@ -5,3 +5,5 @@ soft/tigervncserver.deb
 soft/webgoat-server-8.0.0.RELEASE.jar
 soft/virtualbox-5.2.deb
 soft/vagrant_2.0.1_x86_64.deb
+bin/helpfunc.pyc
+bin/vagrantfile.pyc
