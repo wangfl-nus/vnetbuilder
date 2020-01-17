@@ -1,0 +1,10 @@
+[ {"username":"bhanu"   , "passwd":"imissyou"},
+  {"username":"hassan"  , "passwd":"karaf"},
+  {"username":"janio"   , "passwd":"emmanuel"},
+  {"username":"kelcie"  , "passwd":"mario"},
+  {"username":"xiaofeng", "passwd":"cheerleader"},
+  {"username":"yen"     , "passwd":"lolipop"},
+  {"username":"ftpuser" , "passwd":"ftpuser"},
+  {"username":"userA"   , "passwd":"passwdA"},
+  {"username":"userB"   , "passwd":"passwdB"}
+]
